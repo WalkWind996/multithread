@@ -93,7 +93,7 @@ class Product {
             this.wait();
         }
         count = count - 1;
-        System.out.println("开始消费货物剩余" + count);
+        System.out.println("开始消费货物剩余" + count );
         this.notifyAll();
     }
 }
